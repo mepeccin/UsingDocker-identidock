@@ -1,0 +1,7 @@
+identidock:
+  build: .
+  ports:
+    - "5000:9090"
+    - "5001:9191"
+  volumes:
+    - ./app:/app
